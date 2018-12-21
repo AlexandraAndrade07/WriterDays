@@ -10,7 +10,7 @@ export default class About extends Component {
       <Container fluid>
             <NavLink
               className="LinkNavMobileLogo"
-              to="/">
+              to="/home">
               <i class="fas fa-arrow-left"></i>
             </NavLink>
         <Row>
