@@ -1,0 +1,70 @@
+.RowForm {
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+textarea.form-control {
+    height: 15vh!important;
+}
+
+.modal-content {
+    margin-top: 25%;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 6vh;
+}
+
+.btn.btn-info.btn-lg.btn-block {
+    border-color: #560c79;
+    background: #560c79;
+    margin-bottom: 3vh !important;
+    margin-top: 3vh;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.picture {
+    z-index: 1;
+}
+
+.addpicture {
+    background-image: linear-gradient(to top, #6e7b8b, #8795a6, #a1b0c1, #bcccde, #d8e8fb);
+    height: 30vh;
+    display: flex;
+    text-align: center;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.fas.fa-camera {
+    font-size: 3em;
+    padding-top: auto;
+    margin-top: 25%;
+    color: #282828;
+    margin: auto;
+}
+
+.fas.fa-arrow-left {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    margin-left: 0;
+    margin-top: 10px;
+    font-size:1.6em;
+}
+
+.fa-check:before {
+    font-size: 49vw;
+    color:  #560c79;
+    text-align: -webkit-center;
+    margin-left: 78px;
+}
+.evenDescription{
+    text-align: center;
+}
+.evenSubtitle{
+    text-align: center;
+}

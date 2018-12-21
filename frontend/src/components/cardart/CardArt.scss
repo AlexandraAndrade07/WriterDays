@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
+.cardphoto {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);   
+}
+
+.fas.fa-arrow-left {
+    position: absolute;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white !important;
+    z-index: 2;
+    margin-left: 3vh;
+    margin-top: 10px;
+    font-size:1.6em;
+}
+
+.titlecard {
+    font-family: 'Sedgwick Ave Display', cursive;
+    margin-top: 1vh;
+    font-weight: 800;
+    font-size: 1.8em;
+    margin-bottom: 0px;
+}
+
+.btn.btn-info.btn-lg.btn-block {
+    border-color: #560c79;
+    background: #560c79;
+    margin-bottom: 3vh !important;
+    margin-top: 3vh;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.textCardart {
+    text-align: justify;
+    margin-bottom: 6vh;
+}
+
+.displayIcon {
+    display: flex;
+    font-size: 1.2em;
+    margin-bottom: 6vh;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.fa.fa-map-marker, .fa.fa-paint-brush, .fa.fa-calendar, .fa.fa-tag {
+    margin-right: 1vh;
+}

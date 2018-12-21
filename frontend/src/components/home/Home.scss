@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
+video {
+    position: fixed;
+    z-index: -1000;
+    height: 700px;
+    -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+    margin: -30px;
+}
+
+.centerlogowd {
+    text-align: center;
+}
+
+.logoWD {
+    margin-top: 10%;
+    border-radius: 50%;
+    width: 100%;
+	animation: beat 2s infinite alternate;
+    transform-origin: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.btn.btn-secondary.btn-lg.btn-block {
+    border-color: #560c79;
+    margin-bottom: 3vh;
+    background: #560c79;
+    margin-top: 6vh;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);  
+}
+.welcome {
+    margin-top: 14vh;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+@keyframes beat{
+	to { transform: scale(1.1); }
+}

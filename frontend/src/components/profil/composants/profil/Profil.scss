@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
+.containerProfil{
+    height: 50vw;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center !important;
+    margin-top: 30px;
+}
+
+.artisteImage {
+    border-radius: 50%;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 3px 12px rgba(0, 0, 19, 0.8), 0 3px 6px rgba(0, 0, 8, 0.23);
+}
+
+.nameArtist{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.ubicationArtist{
+    text-align: center;
+}
+
+.artistDescription{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0;
+}
+
+.displayIcon {
+    font-size: 1.2em;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.fa-arrow-left:before{
+    position: absolute;
+    z-index: 2;
+    margin-top: 10px;
+    font-size:1.6em;
+}
+
+.fa-paint-brush:before {
+    font-size: 6vw;
+    margin-right: 1vh;
+}
+
+.fa-spray-can:before {
+    font-size: 6vw;
+    margin-right: 1vh;
+}
+
+.fa-image:before {
+    font-size: 4vh;
+    margin-right: 1vh;
+}

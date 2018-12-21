@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
+.containerActualites{
+    background-image: url("../../../pictures/fond.jpg");
+    width: 100%; 
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.col-11, .col-1{
+    margin-top: 10px;
+}
+
+.containerTitleSlider.col-1{
+    margin-top: 40px;
+    padding: inherit;
+}
+
+.slick-slide img {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+    width: 100%;
+    border-radius: 8px; 
+}
+
+.titleActualites{
+        text-align: center;
+        writing-mode: vertical-rl;
+        text-orientation: sideways-rl;
+        font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.slick-prev{
+    left: 6px;
+    z-index: 12;  
+}
+
+.slick-next{
+    right: 6px;
+    z-index: 12;
+    margin-right: 2em;
+}
+
+.slick-slide img {
+    display: block;
+    width: 100%;
+    height: 35vw;
+}

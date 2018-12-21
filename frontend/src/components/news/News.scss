@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
+.ContainerFeed{
+    padding-right: 0!important;
+    padding-left: 0!important;
+    .containerActu{
+        background: black;       width: 100%;
+        .gradientImg{
+          -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+          width: 100%;
+        }
+        .upsideBoxtext{
+          .title{
+            margin-left: 10px;
+            margin-top: -60px;
+            color: #ffff;
+            font-family: 'Sedgwick Ave Display', cursive;
+          }
+          .description{
+              font-size: 3vw;
+              color: #ffffff;
+              margin-bottom: 0px;
+              margin-top: -11px;
+              margin-left: 10px;
+              padding-bottom: 10px;
+          }
+        }
+    }
+}
+
+.fa-plus-circle{ 
+   border-radius: 50%;
+    color:  #560c79;
+    position: fixed;
+    z-index: 2;
+    font-size: 3.3em;
+    animation: beat 2s infinite alternate;
+    transform-origin: center;
+    bottom: 0;
+    right: 0;
+    margin-right: 3vh;
+    margin-bottom: 4vh;
+}
+
+.notiftext {
+    font-weight: 700;
+}
+
+.notiftext, .notiftext2 {
+    margin-bottom: 0;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+
+.notification {
+    opacity: 0.9;
+    border-radius: 3vh 0vh 0vh 3vh;
+    width: 250px;
+    height: 68px;
+    margin-bottom: 3vh;
+    background: #000000;
+    color: white;
+    z-index: 20;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
+@keyframes beat{
+    to { transform: scale(1.1); }
+}
